@@ -49,7 +49,7 @@
         android:inputType="number"
         android:ems="10"
         android:id="@+id/editText6"
-        android:text="Quantidade de Crianças < 12 anos" />
+        android:text="Quantidade de Crianças menores que 12 anos" />
 
     <EditText
         android:layout_width="match_parent"

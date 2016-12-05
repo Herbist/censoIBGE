@@ -5,4 +5,12 @@ package br.com.rafaelherbst.censoibge;
  */
 
 public class FormularioActivity {
+    Button cadastro = (Button) findViewById(R.id.cadastro);
+    cadastro.setOnClickListener(new View.OnClickListener() {
+        public void onClick(View v) {
+            Intent it = new Intent(MainActivity.this, activity_formulario.class);
+            startActivity(it);
+        }
+    });
+
 }
